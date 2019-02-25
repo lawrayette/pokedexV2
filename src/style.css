@@ -1,0 +1,50 @@
+/* ----------------------
+-----ESTILOS GENERALES---
+-----------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #683232;
+}
+
+#start {
+  background-image: url(./1st-generation-pokemon-39423803-4724-2835.jpg);
+  height: -webkit-fill-available;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
+}
+
+#order-desktop {
+    display: inherit;
+    margin-top: 20;
+    margin-top: 3%;
+    margin-left: 41%;
+}
+
+#button-container {
+  display: inline-block;
+  margin-top: 43%;
+  margin-left: 13%;
+}
+
+#options-container {
+    padding:2%;
+}
+#start-pokemon {
+  background-color: lightyellow;
+  font-size: 148%;
+}
+
+#root {
+  padding: 6%;
+}
+
+#root,
+#options {
+  display: none;
+}
